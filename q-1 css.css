@@ -1,0 +1,79 @@
+/* #box1{
+    background-color: blueviolet;
+    height: 100px;
+    width: 200px;
+    font-size: 10px;
+
+}
+#box2{
+    height: 50px;
+    width: 30px;
+    /* width: 30%; */
+  /*  background-color: coral;
+    margin: 10%;
+    font-size: 2em;
+    width: 5em;
+    width: 5rem;
+} */
+/* here in perecentag nd margine will take 30% of 100px */
+/* here em is related to font size if we take font size:10px forbox1 and 2em forbox2 then the total size will be double of parent box1 means 
+font size of box2 will be 20px and in case of width it will take the font size of itself means 2em and 
+multiply the width 5times of font size means 100px*/
+/* if we take width:5rem then will take the size of root element and then multiply it five times of root element , here the font size of root 
+element hello is 16px then width will be 80px */
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    display:inline-block
+}
+/* static position is static which is alredy set */
+#box1{
+    position: static;
+    top: 80px;
+    position: fixed;
+}
+#box2{
+    position: relative;
+    top: 5px;
+    /* left: 100px; */
+    right: 10px;
+}
+/* in relative position it will chane in position related to itself  */ 
+/* z-index property used when we want to front or behind when they are over lapping  */
+/* #box3{
+    position: absolute;
+    top: 400px;
+    left: 400px;
+    position: sticky;
+
+
+} */
+/* in absolute position it will change position related to  the first parent tag , here which is body tag  */
+#box4{
+    position: fixed;
+    right: 20px;
+    bottom: 0px;
+}
+/* in fixed it will change position according to browser page  */
+p{
+    font-size: 30px;}
+#second{
+    display: inline-block;
+    height: 200px;
+    width: 100px;
+    border: 2px solid black;
+    margin: 10px;
+}    
+/* use unsplash.com websitw to dowload diferent photo */
+#box5{
+    background-size: cover;
+    background-image: url(astrology\ for\ q-1.jpg.jpg);
+    color: aliceblue;
+}
+#box7{
+    background-size: contain;
+    background-image: url(astrology\ for\ q-1.jpg.jpg);
+    color: aliceblue;
+}
